@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 如何将react版本从18.xx更新为17.xx
+create-react-app脚手架创建react项目时, 默认为react@18.xx
+如果想切换为17.xx, 可在项目根目录执行:
+npm install react@17.x react-dom@17.x --save
+
