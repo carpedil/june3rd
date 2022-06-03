@@ -14,6 +14,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/11_列表渲染' */
 /* import App from './01-base/12_TodoList-增加' */
 /* import App from './01-base/13_TodoList-删除' */
-import App from './01-base/14_富文本显示'
+/* import App from './01-base/14_富文本显示' */
+import App from './01-base/15_maizuo选项卡1'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
