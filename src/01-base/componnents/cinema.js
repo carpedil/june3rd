@@ -6,7 +6,8 @@ export default class Cinema extends Component {
   constructor() {
     super()
     this.state = {
-      cinemas: []
+      cinemas: [],
+      cinemas_bk: [],
     }
     // get data by axios
     /* axios.get("url").then(res=>{}).catch(err=>console.log(err)) */
@@ -24,7 +25,8 @@ export default class Cinema extends Component {
     }).then(res => {
       console.log(res.data.data)
       this.setState({
-        cinemas: res.data.data.cinemas
+        cinemas: res.data.data.cinemas,
+        cinemas_bk: res.data.data.cinemas
       })
     })
 
@@ -34,15 +36,26 @@ export default class Cinema extends Component {
   render() {
     return (
       <div>
+        <input onInput={this.handelInput}/>
         {
-          this.state.cinemas.map(
-            item =>
-              <dl key={item.cinemaId}>
-                <dt>{item.name}</dt>
-                <dd>{item.address}</dd>
-              </dl>)
-        }
+            this.state.cinemas.map(
+              item =>
+                <dl key={item.cinemaId}>
+                  <dt>{item.name}</dt>
+                  <dd>{item.address}</dd>
+                </dl>)
+          }
       </div>
     )
+  }
+
+  /* 当函数没有传递任何参数时,默认有一个event对象传递给函数 */
+  handelInput=  (event)=>{
+    let kw = event.target.value
+    let newCinemas = this.state.cinemas_bk.filter(item=>item.name.toUpperCase().includes(kw.toUpperCase()) || item.address.toUpperCase().includes(kw.toUpperCase()))
+
+    this.setState({
+      cinemas:newCinemas
+    })
   }
 }
