@@ -17,6 +17,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/14_富文本显示' */
 /* import App from './01-base/15_maizuo选项卡1' */
 /* import App from './01-base/16_axios数据请求' */
-import App from './01-base/17_模糊搜索'
+/* import App from './01-base/17_模糊搜索' */
+import App from './01-base/18_setState同步异步问题'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
