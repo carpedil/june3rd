@@ -14,3 +14,8 @@ export default function App() {
     </div>
     )
 }
+
+/*
+// 方法2
+const App = () =>  (<div>App</div>)
+export default App */
