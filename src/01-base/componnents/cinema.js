@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 /* npm i --save axios */
 import axios from 'axios'
+/* npm i --save better-scroll */
+import BetterScroll from 'better-scroll'
+
 export default class Cinema extends Component {
 
   constructor() {
@@ -28,6 +31,8 @@ export default class Cinema extends Component {
         cinemas: res.data.data.cinemas,
         cinemas_bk: res.data.data.cinemas
       })
+
+      new BetterScroll(".wrapper")
     })
 
 
@@ -36,26 +41,34 @@ export default class Cinema extends Component {
   render() {
     return (
       <div>
-        <input onInput={this.handelInput}/>
-        {
-            this.state.cinemas.map(
-              item =>
-                <dl key={item.cinemaId}>
-                  <dt>{item.name}</dt>
-                  <dd>{item.address}</dd>
-                </dl>)
-          }
+        <input onInput={this.handelInput} />
+        <div className='wrapper' style={{
+          height: '500px',
+          overflow: 'hidden',
+          background: 'yellow'
+        }}>
+          <div className='content' >
+            {
+              this.state.cinemas.map(
+                item =>
+                  <dl key={item.cinemaId}>
+                    <dt>{item.name}</dt>
+                    <dd>{item.address}</dd>
+                  </dl>)
+            }
+          </div>
+        </div>
       </div>
     )
   }
 
   /* 当函数没有传递任何参数时,默认有一个event对象传递给函数 */
-  handelInput=  (event)=>{
+  handelInput = (event) => {
     let kw = event.target.value
-    let newCinemas = this.state.cinemas_bk.filter(item=>item.name.toUpperCase().includes(kw.toUpperCase()) || item.address.toUpperCase().includes(kw.toUpperCase()))
+    let newCinemas = this.state.cinemas_bk.filter(item => item.name.toUpperCase().includes(kw.toUpperCase()) || item.address.toUpperCase().includes(kw.toUpperCase()))
 
     this.setState({
-      cinemas:newCinemas
+      cinemas: newCinemas
     })
   }
 }
