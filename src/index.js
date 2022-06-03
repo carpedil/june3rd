@@ -10,6 +10,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/07_事件绑定3' */
 /* import App from './01-base/08_Ref应用' */
 /* import App from './01-base/09_State状态' */
-import App from './01-base/10_State状态补充'
+/* import App from './01-base/10_State状态补充' */
+import App from './01-base/11_列表渲染'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
