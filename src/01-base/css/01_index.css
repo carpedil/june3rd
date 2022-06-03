@@ -1,3 +1,6 @@
 .active {
     background-color: aqua;
 }
+.hidden{
+    display: none;
+}
