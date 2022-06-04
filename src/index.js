@@ -21,6 +21,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/18_setState同步异步问题' */
 /* import App from './01-base/19_setState同步异步问题补充' */
 /* import App from './01-base/20_模糊搜索-betterscroll' */
-import App from './01-base/21_props属性'
+/* import App from './01-base/21_props属性' */
+import App from './01-base/22_props属性验证'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
