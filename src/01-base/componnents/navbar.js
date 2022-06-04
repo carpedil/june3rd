@@ -9,6 +9,12 @@ export default class NavBar extends Component {
         leftShow: propTypes.bool
     }
 
+    /* 如果需要给组件的属性设定默认值, 可以按照属性验证的方法进行约定: */
+    static defaultProps ={
+        leftShow :true
+    }
+
+    
     render() {
         /* ES6解构参数 ,解构参数名需要与传入参数一致 */
         let {title,leftShow} = this.props
