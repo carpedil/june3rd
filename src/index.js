@@ -24,6 +24,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/21_props属性' */
 /* import App from './01-base/22_props属性验证' */
 /* import App from './01-base/23_props属性默认值' */
-import App from './01-base/24_props属性注意'
+/* import App from './01-base/24_props属性注意' */
+import App from './01-base/25_函数式组件属性'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
