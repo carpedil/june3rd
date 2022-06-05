@@ -33,6 +33,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/30_受控Todolist' */
 /* import App from './02_advanced/01_子传父' */
 /* import App from './02_advanced/02_非受控maizuo选项卡功能' */
-import App from './02_advanced/03_受控maizuo选项卡功能'
+/* import App from './02_advanced/03_受控maizuo选项卡功能' */
+import App from './02_advanced/04_父子通信-表单域控件'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
