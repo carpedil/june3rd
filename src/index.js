@@ -30,6 +30,7 @@ import ReactDOM from 'react-dom'
 /* import App from './01-base/27_非受控' */
 /* import App from './01-base/28_受控' */
 /* import App from './01-base/29_受控cinema案例' */
-import App from './01-base/30_受控Todolist'
+/* import App from './01-base/30_受控Todolist' */
+import App from './02_advanced/01_子传父'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
