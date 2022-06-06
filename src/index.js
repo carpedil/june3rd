@@ -36,6 +36,7 @@ import ReactDOM from 'react-dom'
 /* import App from './02_advanced/03_受控maizuo选项卡功能' */
 /* import App from './02_advanced/04_父子通信-表单域控件' */
 /* import App from './02_advanced/05_ref版-表单域控件' */
-import App from './02_advanced/06_中间人模式'
+/* import App from './02_advanced/06_中间人模式' */
+import App from './02_advanced/07_发布订阅模式.js'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
