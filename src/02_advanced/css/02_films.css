@@ -1,0 +1,18 @@
+.filmItem img{
+    width: 100px;
+    float: left;
+}
+
+.filmItem{
+    overflow: hidden;
+    padding: 10px;
+}
+
+.filmdetail{
+    position: fixed;
+    right: 0;
+    top: 150px;
+    background: rgb(160, 157, 155);
+    width: 400px;
+    height: 400px;
+}

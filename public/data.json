@@ -1,0 +1,527 @@
+{
+    "status": 0,
+    "data": {
+        "films": [
+            {
+                "filmId": 5984,
+                "name": "侏罗纪世界3",
+                "poster": "https://pic.maizuo.com/usr/movie/5011ee407fb407d47e333a3935ec33d1.jpg",
+                "actors": [
+                    {
+                        "name": "科林·特雷沃罗",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f50e32aaebd649e5cefebbccc2589274.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "克里斯·帕拉特",
+                        "role": "Owen",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/24bda32cf503c197398a6f9180aa2102.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "布莱丝·达拉斯·霍华德",
+                        "role": "Claire",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/7054fbfb119a2527485eb583834672bb.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "杰夫·高布伦",
+                        "role": "Ian Malcolm",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/dbb75929bcae6c2dd9688aefc9347de0.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "劳拉·邓恩",
+                        "role": "Ellie Sattler",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a38b46a1df20148566170484e0d95096.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "科林·特雷沃罗",
+                "category": "科幻|动作|冒险|惊悚",
+                "synopsis": "影片讲述了自从恐龙进入了人类世界，侏罗纪公园已经不复存在的故事。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1654819200,
+                "timeType": 3,
+                "runtime": 147,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5978,
+                "name": "暗恋·橘生淮南",
+                "poster": "https://pic.maizuo.com/usr/movie/d8419057142d94750cfcbaa69f5fd16b.jpg",
+                "actors": [
+                    {
+                        "name": "黄斌",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ab5e6c6d618f6cf004f8be57e4cd7c40.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "张雪迎",
+                        "role": "洛枳",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/2f3f46c6c4dfcaced6f26b0c4b5d0577.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "辛云来",
+                        "role": "盛淮南",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/d131e61678ef5a283ffab7f471876337.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "伍嘉成",
+                        "role": "张明瑞",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/6faf6cfbc43e5d674a0d56927209c37b.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "刘琳",
+                        "role": "洛母",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/378aed70fcd7d70cbd5be7565e05ff9e.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "黄斌",
+                "category": "爱情|青春",
+                "synopsis": "有多少人的青春是从一场暗恋开始的？儿时的一次偶遇，少年时期的默默竞争，大学的意外重逢，洛枳（张雪迎 饰）对盛淮南（辛云来 饰）的漫长暗恋，最终会收获何种结局？影片改编自八月长安振华系列，为电影《最好的我们》续篇。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1654128000,
+                "timeType": 3,
+                "runtime": 102,
+                "grade": "7.2",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5947,
+                "name": "坏蛋联盟",
+                "poster": "https://pic.maizuo.com/usr/movie/594ded98490b61549be7ecb5a9355b79.jpg",
+                "actors": [
+                    {
+                        "name": "彼埃尔·佩里菲尔",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ae3dfe1adfa6ea815060e59755be91de.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "山姆·洛克威尔",
+                        "role": "Mr. Wolf",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/da7a219d957fdf0ba6b930e046a484b3.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "秦昊",
+                        "role": "大坏狼",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a4a438c3827ffbd51dc3bb91cda0f6d6.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "奥卡菲娜",
+                        "role": "Ms. Tarantula",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b1271af16d9d6abc03459fbbb34987d1.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "锤娜丽莎",
+                        "role": "美肚鲨",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/60d410811425d713a166b91beae28166.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "彼埃尔·佩里菲尔",
+                "category": "喜剧|动画|动作",
+                "synopsis": "梦工场最新动画喜剧电影《坏蛋联盟》(The Bad Guys)改编自同名畅销漫画，全球出版1600万册。本片由《功夫熊猫》系列电影资深动画师彼埃尔·佩里菲尔执导，《魔发精灵》《宝贝老板》王牌制片人保驾护航。漫画由艾伦·布拉培创作，黑白风格，围绕五个“坏蛋”：大坏狼、美肚鲨、贪心蛇、食人鱼、骇客蛛展开故事，它们是令人闻风丧胆的“坏蛋联盟”，然而它们却决定成为模范公民。它们是真的想改“邪”归“正”吗？",
+                "filmType": {
+                    "name": "3D",
+                    "value": 2
+                },
+                "nation": "美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1651190400,
+                "timeType": 3,
+                "runtime": 100,
+                "grade": "7.9",
+                "item": {
+                    "name": "3D",
+                    "type": 2
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5969,
+                "name": "哆啦A梦：大雄的宇宙小战争2021",
+                "poster": "https://pic.maizuo.com/usr/movie/c151962e41cb282f09b7855261841da7.jpg",
+                "actors": [
+                    {
+                        "name": "山口晋",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/70732f61c74c8c6ace4ad76c8e52f145.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "水田山葵",
+                        "role": "Doraemon,",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/5d31b9c38343b57d8f3268340894bcb5.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "嘉数由美",
+                        "role": "Shizuka,",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/67642fc2c248a590962e240d92494a99.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "关智一",
+                        "role": "Suneo,",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/22cc7823acd7fe1871b03a7609bcf3be.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "大原惠美",
+                        "role": "Nobita,",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ef839ad3ed6a276f0ebf2e5b75c3d0b7.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "山口晋",
+                "category": "科幻|冒险|动画",
+                "synopsis": "电影讲述大雄意外结识来自匹里卡星、体形小巧的外星人帕比，并在哆啦A梦的帮助下，与大家一起穿越星际，共同守护友情和星球的宇宙冒险故事。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "日本",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1653696000,
+                "timeType": 3,
+                "runtime": 110,
+                "grade": "7.1",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5920,
+                "name": "边缘行者",
+                "poster": "https://pic.maizuo.com/usr/movie/afdef208d7b72a950b164c007e8a0837.jpg",
+                "actors": [
+                    {
+                        "name": "谭耀文",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/9bb5e7a0d1ae00cb64370802c0ca812c.jpg"
+                    },
+                    {
+                        "name": "黄明升",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/a1b031211683411b6aea7288cdaa0233.jpg"
+                    },
+                    {
+                        "name": "任贤齐",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/42ff2bb4fc35cfc4c569cce29b1dc574.jpg"
+                    },
+                    {
+                        "name": "任达华",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/56087e1d22305c93dc9c30441f0b60e0.jpg"
+                    },
+                    {
+                        "name": "方中信",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/cdd4b9595ba13f68a1d145902c811bbf.jpg"
+                    }
+                ],
+                "director": "黄明升",
+                "category": "犯罪|动作",
+                "synopsis": "1997年回归前夕，多方势力矛盾激化，暴力事件频发。巨变当前，黑帮龙头林耀昌（任达华 饰）对亲信阿骆（任贤齐 饰）委以帮派重任。多重身份的阿骆在黑白边缘行走，一场除暴行动正悄然掀开反杀的序幕。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国香港,中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1649980800,
+                "timeType": 3,
+                "runtime": 113,
+                "grade": "7.7",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5977,
+                "name": "遇见你之后",
+                "poster": "https://pic.maizuo.com/usr/movie/ccf5b558eacb771ef5681d01af69e5f7.jpg",
+                "actors": [
+                    {
+                        "name": "侯祖辛",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/5dfa962686de2c3e9a237881932b8004.jpg"
+                    },
+                    {
+                        "name": "黄尧",
+                        "role": "黄曼曼",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f8ae1c0d96e785e44afb2e2ed587f627.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "刘迅",
+                        "role": "彭柏杨",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b095f3e5a9b430a790c2372bf4b900ca.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "吴英哲",
+                        "role": "经纪人皮特",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/cf06178464517f67d962c8cd03fea8ca.png@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "付美",
+                        "role": "Lisa",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/3cc4c5e275daa982f45c0bf84d525778.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "侯祖辛",
+                "category": "爱情|剧情",
+                "synopsis": "最幸运是遇见你，最遗憾也是遇见你。当黄曼曼遇上彭柏杨的那天，她以为自己遇到了生命中最懂自己的人，没想到这份爱还是败给了现实，只想爱人幸福的柏杨，也低估了曼曼想跟他走下去的决心。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "中国大陆",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1654214400,
+                "timeType": 3,
+                "runtime": 102,
+                "grade": "7.5",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5930,
+                "name": "神奇动物:邓布利多之谜",
+                "poster": "https://pic.maizuo.com/usr/movie/46015aa8e08a661e7c559b6e7407ce08.jpg",
+                "actors": [
+                    {
+                        "name": "大卫·叶茨",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/09f20e45368d9b72f0486832cdca3515.jpg"
+                    },
+                    {
+                        "name": "埃迪·雷德梅恩",
+                        "role": "Newt Scamander",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/abc90de5146a433722e271d7f50f2307.jpg"
+                    },
+                    {
+                        "name": "艾莉森·苏朵儿",
+                        "role": "Queenie Goldstein",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/9ba30918f6711258eae858b70d1de1cb.jpg"
+                    },
+                    {
+                        "name": "裘德·洛",
+                        "role": "Albus Dumbledore",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/36153b8976833af21d0b98f6ff162bbd.jpg"
+                    },
+                    {
+                        "name": "凯瑟琳·沃特森",
+                        "role": "Tina Goldstein",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/896888f70e69cb68ed9e87f0424e95c1.jpg"
+                    }
+                ],
+                "director": "大卫·叶茨",
+                "category": "奇幻|冒险",
+                "synopsis": "阿不思·邓布利多教授（裘德·洛 饰）意识到强大的黑巫师盖勒特·格林德沃（麦斯·米科尔森 饰）正试图夺取魔法世界的控制权。邓布利多了解仅凭他一人之力，将无法阻止格林德沃，于是他委托魔法动物学家纽特·斯卡曼德（埃迪·雷德梅恩 饰）带领一支精良的团队——成员包括男巫、女巫及一位勇敢的麻瓜面包师，来共同执行这项危险任务。一路上他们会遇到各式各样的神奇动物，既有老朋友，也有前所未见的神秘生物；同时他们也随时会与格林德沃不断壮大的追随者发生冲突。这次行动的风险是如此之高……邓布利多还能袖手旁观多久？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "美国,英国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1649376000,
+                "timeType": 3,
+                "runtime": 143,
+                "grade": "7.8",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5983,
+                "name": "天才计划",
+                "poster": "https://pic.maizuo.com/usr/movie/90bb7e985b8f26c28ae9d5d1c29ba8d3.jpg",
+                "actors": [
+                    {
+                        "name": "弗朗西斯·安南",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/f59d2a3ea98be2b6a526319387b9e3b4.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "丹尼尔·雷德克里夫",
+                        "role": "Tim Jenkin",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/fb973e9cb22dc97f212237809ec61369.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "丹尼尔·韦伯",
+                        "role": "Stephen Lee",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/61db904cd2b1d0875d38f67511741088.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "萨姆·尼尔",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b6558f73a0270a7eee01d6415eefa1f8.jpg@1246w_1246h_1l_0e"
+                    },
+                    {
+                        "name": "伊恩·哈特",
+                        "role": "Denis Goldberg",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/25bdcaebe868c138fa0783c0b7bbf3e0.jpg@1246w_1246h_1l_0e"
+                    }
+                ],
+                "director": "弗朗西斯·安南",
+                "category": "悬疑|犯罪|剧情",
+                "synopsis": "机械天才蒂姆·詹金（丹尼尔·雷德克里夫 饰）搭档好兄弟史蒂芬·李（丹尼尔·韦伯 饰）秘密组建越狱行动队，上演了一场令人窒息步步惊心的精巧越狱大秀。面对冷血狱警的无理压迫，看行动队如何摆脱404天牢狱之灾，如何冲破15道自由之门，手握天才之钥密室逃生。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "美国,英国,南非,澳大利亚",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1654819200,
+                "timeType": 3,
+                "runtime": 106,
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5918,
+                "name": "精灵旅社4：变身大冒险",
+                "poster": "https://pic.maizuo.com/usr/movie/ea4450d05d12846769fc40cf4817b847.jpg",
+                "actors": [
+                    {
+                        "name": "德里克·德莱蒙",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/0f71ec213c2c4654496cbc9aec5eb179.jpg"
+                    },
+                    {
+                        "name": "詹妮弗·克鲁斯卡",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/b7b7b3511c075d3b9a48b9e7a446a5cb.jpg"
+                    },
+                    {
+                        "name": "布赖恩·哈尔",
+                        "role": "德古拉",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/20eafa5093d2f02e23528ae63c67af91.jpg"
+                    },
+                    {
+                        "name": "赛琳娜·戈麦斯",
+                        "role": "梅菲丝",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/fdb7244d7acd3ebd00ada41077b599c9.jpg"
+                    },
+                    {
+                        "name": "弗兰·德莱斯切尔",
+                        "role": "演员",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/7e1f76fcb2ec72daefdf0f53587c766e.jpg"
+                    }
+                ],
+                "director": "德里克·德莱蒙|詹妮弗·克鲁斯卡",
+                "category": "喜剧|动画|奇幻|冒险",
+                "synopsis": "在精灵旅社125周年庆典派对上，一场意外使德古拉带领的精灵家族首次变身成人，而约翰尼则成了怪兽。为了寻找治疗方法，这对冤家翁婿前往危机重重的南美雨林开启了一场欢乐又刺激的冒险之旅，遭遇了种种令人捧腹的窘况。得知消息的梅菲斯带领精灵家族前去营救爱人和老爸，他们最终能否将一切恢复正常？",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1648944000,
+                "timeType": 3,
+                "runtime": 88,
+                "grade": "7.2",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            },
+            {
+                "filmId": 5912,
+                "name": "月球陨落",
+                "poster": "https://pic.maizuo.com/usr/movie/b96d9dff31598616833dced2e0c0916b.jpg",
+                "actors": [
+                    {
+                        "name": "约翰·布莱德利",
+                        "role": "KC Houseman",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/ed97d57b8fc0faf7e85c843366ce87a3.jpg"
+                    },
+                    {
+                        "name": "迈克尔·佩纳",
+                        "role": "Tom Lopez",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/c96adbeb5b5e902da8b9625d4fb4e942.jpg"
+                    },
+                    {
+                        "name": "哈莉·贝瑞",
+                        "role": "Jo Fowler",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/d979fb3ba88429c6294d4efcec8f2778.jpg"
+                    },
+                    {
+                        "name": "帕特里克·威尔森",
+                        "role": "Brian Harper",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/8cc74453876032055c7cb549b0d16d5e.jpg"
+                    },
+                    {
+                        "name": "罗兰·艾默里奇",
+                        "role": "导演",
+                        "avatarAddress": "https://pic.maizuo.com/usr/movie/1aa6768fb92470214165bd139f265329.jpg"
+                    }
+                ],
+                "director": "罗兰·艾默里奇",
+                "category": "灾难|科幻",
+                "synopsis": "仰望星空，⽉亮⼀向是那么的永恒。但在不久的将来，⽉球被⼀股神秘的⼒量驱使离开⽉球轨道，向我们熟知的地球⻜速⽽来，⽽在众⼈都放弃希望，地球上如世界末⽇⼀般时，⼀⽀看似乌合之众的团队决定为地球进⾏最后⼀搏，冒险为保卫⼈类最后⼀战。",
+                "filmType": {
+                    "name": "2D",
+                    "value": 1
+                },
+                "nation": "英国,美国",
+                "language": "",
+                "videoId": "",
+                "premiereAt": 1648166400,
+                "timeType": 3,
+                "runtime": 130,
+                "grade": "7.5",
+                "item": {
+                    "name": "2D",
+                    "type": 1
+                },
+                "isPresale": true,
+                "isSale": false
+            }
+        ],
+        "total": 46
+    },
+    "msg": "ok"
+}
