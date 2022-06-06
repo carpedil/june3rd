@@ -38,6 +38,7 @@ import ReactDOM from 'react-dom'
 /* import App from './02_advanced/05_ref版-表单域控件' */
 /* import App from './02_advanced/06_中间人模式' */
 /* import App from './02_advanced/07_发布订阅模式.js' */
-import App from './02_advanced/08_context模式'
+// import App from './02_advanced/08_context模式'
+import App from './02_advanced/09_插槽slot'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
