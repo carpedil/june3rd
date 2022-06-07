@@ -39,6 +39,7 @@ import ReactDOM from 'react-dom'
 /* import App from './02_advanced/06_中间人模式' */
 /* import App from './02_advanced/07_发布订阅模式.js' */
 // import App from './02_advanced/08_context模式'
-import App from './02_advanced/09_插槽slot'
+// import App from './02_advanced/09_插槽slot'
+import App from './02_advanced/10_插槽版-子传父(折叠侧边栏)'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
