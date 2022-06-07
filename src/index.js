@@ -41,6 +41,7 @@ import ReactDOM from 'react-dom'
 // import App from './02_advanced/08_context模式'
 // import App from './02_advanced/09_插槽slot'
 // import App from './02_advanced/10_插槽版-子传父(折叠侧边栏)'
-import App from './02_advanced/11_生命周期-初始化阶段'
+// import App from './02_advanced/11_生命周期-初始化阶段'
+import App from './02_advanced/12_生命周期-初始化案例'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
