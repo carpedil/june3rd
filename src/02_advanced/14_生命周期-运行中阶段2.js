@@ -8,7 +8,7 @@ export default class App extends Component {
     render() {
         return (
             <div>App
-                <input type="number" onChange={(evt)=>{
+                <input type="number" value={this.state.current} onChange={(evt)=>{
                     let num = Number(evt.target.value)
                     if(num >= this.state.list.length){
                         num = 0
@@ -17,10 +17,12 @@ export default class App extends Component {
                         current:num
                     })
                 }}/>
-                <div> 
+                <div style={{
+                    overflow:'hidden'
+                }}> 
                 {
                     this.state.list.map((item,index)=>{
-                       return <Box key={index} current={this.state.current} index={index}></Box>
+                       return <Box key={item} current={this.state.current} index={index}></Box>
                     })
                 }
                 </div>
