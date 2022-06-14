@@ -47,6 +47,7 @@ import ReactDOM from 'react-dom'
 // import App from './02_advanced/14_生命周期-运行中阶段2'
 // import App from './02_advanced/15_生命周期-运行中阶段3'
 // import App from './02_advanced/16_生命周期-运行中案例'
-import App from './02_advanced/17_生命周期-销毁阶段'
+// import App from './02_advanced/17_生命周期-销毁阶段'
+import App from './02_advanced/18_新生命周期1'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
