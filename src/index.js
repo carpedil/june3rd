@@ -52,6 +52,7 @@ import ReactDOM from 'react-dom'
 // import App from './02_advanced/19_新生命周期2'
 // import App from './02_advanced/20_性能优化-pureComponent'
 // import App from './02_advanced/21_轮播组件案例1-swipper同步'
-import App from './02_advanced/22_轮播组件案例1-swipper异步'
+// import App from './02_advanced/22_轮播组件案例1-swipper异步'
+import App from './02_advanced/23_轮播组件案例1-swipper组件'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
