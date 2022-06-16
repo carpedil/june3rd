@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
 /* import App from './App' */
 /* import App from './01-base/01_ClassComponent' */
 /* import App from './01-base/02_FunctionalComponent' */
@@ -56,6 +55,8 @@ import ReactDOM from 'react-dom'
 // import App from './02_advanced/23_轮播组件案例1-swipper组件'
 // import App from './03_hooks/01_useState'
 // import App from './03_hooks/02_todolist'
-import App from './03_hooks/03_useEffect1'
+// import App from './03_hooks/03_useEffect1'
+// import App from './03_hooks/04_useEffect2';
+import App from './03_hooks/05_useEffect2-分类案例';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
