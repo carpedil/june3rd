@@ -55,6 +55,7 @@ import ReactDOM from 'react-dom'
 // import App from './02_advanced/22_轮播组件案例1-swipper异步'
 // import App from './02_advanced/23_轮播组件案例1-swipper组件'
 // import App from './03_hooks/01_useState'
-import App from './03_hooks/02_todolist'
+// import App from './03_hooks/02_todolist'
+import App from './03_hooks/03_useEffect'
 
 ReactDOM.render(<App/>,document.getElementById('root'))
