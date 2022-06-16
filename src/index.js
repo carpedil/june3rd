@@ -57,6 +57,7 @@ import ReactDOM from 'react-dom';
 // import App from './03_hooks/02_todolist'
 // import App from './03_hooks/03_useEffect1'
 // import App from './03_hooks/04_useEffect2';
-import App from './03_hooks/05_useEffect2-分类案例';
+// import App from './03_hooks/05_useEffect2-分类案例';
+import App from './03_hooks/06_useEffect3';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
