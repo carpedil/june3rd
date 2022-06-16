@@ -25,7 +25,7 @@ export default class App extends Component {
     }
 
     /* 箭头函数不关心谁调用, this指向永远与外部作用域保持一致 */
-    handelClick3 = ()=>{ console.log("Click3 Clicked","存在this指向问题",this.a)}
+    handelClick3 = ()=>{ console.log("Click3 Clicked","不存在this指向问题",this.a)}
     handelClick4 = ()=>{ console.log("Click4 Clicked","推荐写法,适用于传参场景",this.a)}
 
 }
