@@ -70,6 +70,7 @@ import ReactDOM from 'react-dom';
 // import App from './03_hooks/15_自定义hooks';
 // import App from './04_router/01_一级路由与多级路由';
 // import App from './04_router/02_重定向';
-import App from './04_router/03_嵌套路由';
+// import App from './04_router/03_嵌套路由';
+import App from './04_router/04_声明式与编程式导航';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
