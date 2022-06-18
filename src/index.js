@@ -61,6 +61,7 @@ import ReactDOM from 'react-dom';
 // import App from './03_hooks/06_useEffect3';
 // import App from './03_hooks/07_useCallback1';
 // import App from './03_hooks/08_useCallback2';
-import App from './03_hooks/09_useMemo';
+// import App from './03_hooks/09_useMemo';
+import App from './03_hooks/10_useRef';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
