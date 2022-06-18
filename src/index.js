@@ -68,6 +68,7 @@ import ReactDOM from 'react-dom';
 // import App from './03_hooks/13_useReducer2';
 // import App from './03_hooks/14_useReducer3';
 // import App from './03_hooks/15_自定义hooks';
-import App from './04_router/01_一级路由与多级路由';
+// import App from './04_router/01_一级路由与多级路由';
+import App from './04_router/02_重定向';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
