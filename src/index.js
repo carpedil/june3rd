@@ -66,6 +66,7 @@ import ReactDOM from 'react-dom';
 // import App from './03_hooks/11_useContext';
 // import App from './03_hooks/12_useReducer1';
 // import App from './03_hooks/13_useReducer2';
-import App from './03_hooks/14_useReducer3';
+// import App from './03_hooks/14_useReducer3';
+import App from './03_hooks/15_自定义hooks';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
