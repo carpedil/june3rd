@@ -6,11 +6,7 @@ import Cinema from './componnents/cinema'
 import Center from './componnents/center'
 
 export default class App extends Component {
-    /* 
-        实现根据当前鼠标点击,展示切换至对应的选项卡页面
-        根据axios发送请求,获取影院数据
-        实现根据输入模糊搜索影院数据
-    */
+    //    useMemo类似vue中的计算属性
     state = {
         list: [{
             id: 0,
