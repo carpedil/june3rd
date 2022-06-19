@@ -6,7 +6,12 @@ import Cinema from '../views/cinema'
 import Detail from '../views/detail'
 import Film from '../views/film3'
 import NotFound from '../views/notfound'
+import Login from '../views/Login'
 
+
+function isAuth(){
+    return localStorage.getItem('token')
+}
 
 // HashRouter 会在浏览器地址栏后面跟一个#号
 
@@ -22,7 +27,13 @@ export default class IndexRouter extends Component {
                         {/* 动态路由 :id 中:号属于占位符*/}
                         <Route path='/film/:id' component={Detail}></Route>
                         <Route path='/cinemas' component={Cinema}></Route>
-                        <Route path='/center' component={Center}></Route>
+                        {/* <Route path='/center' component={Center}></Route> */}
+                        {/* 路由拦截写法 */}
+                        <Route path='/center' render={()=>{
+                            return isAuth()? <Center/> : <Redirect to="/login"/>
+                        }}></Route>
+
+                        <Route path="/login" component={Login}></Route>
                         {/* 模糊匹配 */}
                         {/* <Redirect from='/' to='/3'></Redirect> */}
                         {/* 要精确匹配,加上exact即可 */}
