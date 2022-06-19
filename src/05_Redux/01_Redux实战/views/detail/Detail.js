@@ -10,5 +10,7 @@ export default function Detail(props) {
         }
     }, [])
 
-    return <div>Detail-{props.match.params.id}</div>
+    return <div>Detail-{props.match.params.id} <button onClick={()=>{
+        props.history.goBack()
+    }}>back</button></div>
 }

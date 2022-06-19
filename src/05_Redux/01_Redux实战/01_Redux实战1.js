@@ -1,28 +1,31 @@
-import { useEffect, useState } from "react"
+import { Component } from "react"
 
 import IndexRouter from './components/router/IndexRouter'
 import TabBar from "./components/tabbar/TabBar"
 import store from "./store/store"
 
-export default function App() {
-    const [isShow, setIsShow] = useState(true)
+export default class App extends Component {
+    state ={
+        isShow: true
+    }
 
-    useEffect(() => {
+    componentDidMount() { 
         console.log(store.getState())
         // 4 store.subscribe 订阅
         store.subscribe(() => {
-            setIsShow(store.getState().isShow)
+            this.setState({
+                isShow: store.getState().show
+            })
         })
-    }, [isShow])
-
-
-    return (
-        <div>
+     }
+     
+    render(){
+        return (
             <div>
                 <IndexRouter>
-                   {isShow && <TabBar /> }
+                    {this.state.isShow && <TabBar />}
                 </IndexRouter>
             </div>
-        </div>
-    )
+        )
+    }
 }
