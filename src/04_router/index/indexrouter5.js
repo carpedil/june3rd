@@ -11,8 +11,8 @@ import Center from '../views/center'
 import Cinema from '../views/cinema'
 import Detail from '../views/detail'
 import Film from '../views/film3'
-import NotFound from '../views/notfound'
 import Login from '../views/Login'
+import NotFound from '../views/notfound'
 
 
 function isAuth(){

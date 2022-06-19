@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Redirect, Route, Switch } from 'react-router-dom'
+import { NavLink, Redirect, Route, Switch } from 'react-router-dom'
 import ComingSoon from './films/ComingSoon'
 import NowPlaying from './films/NowPlaying'
 
@@ -8,6 +8,14 @@ export default class Film extends Component {
         return (
             <div>
                 <div style={{height:'100px',background:'yellow'}}>轮播图</div>
+                <div>
+                    <li>
+                        <NavLink to="/films/nowplaying">正在热映</NavLink>
+                    </li>
+                    <li>
+                    <NavLink to="/films/comingsoon">即将上映</NavLink>
+                    </li>
+                </div>
                 <Switch>
                     <Route path="/films/nowplaying"><NowPlaying/></Route>
                     <Route path="/films/comingsoon"><ComingSoon/></Route>
