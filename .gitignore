@@ -22,3 +22,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.idea/.gitignore
+.idea/june3rd.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/
