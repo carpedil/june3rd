@@ -6,7 +6,7 @@ import store from "./store/store"
 
 export default class App extends Component {
     state ={
-        isShow: true
+        isShow: store.getState().show
     }
 
     componentDidMount() { 
