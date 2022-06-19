@@ -76,6 +76,7 @@ import ReactDOM from 'react-dom';
 // import App from './04_router/06_路由拦截';
 // import App from './04_router/07_路由模式';
 // import App from './04_router/08_withRoute';
-import App from './04_router/09_反向代理';
+// import App from './04_router/09_反向代理';
+import App from './04_router/10_CSS Module';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
