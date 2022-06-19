@@ -1,12 +1,12 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { useHistory } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 // import { NavLink } from "react-router-dom"
 
 export default function NowPlaying() {
 
   const [list, setList] = useState([])
-  
+
 
   useEffect(() => {
     axios({
@@ -21,26 +21,31 @@ export default function NowPlaying() {
 
   }, [])
 
-  const history = useHistory()
 
-  const handelClick =(id)=>{
-    history.push(`/film/${id}`)
-  }
 
   return (
     <div>
       <ul>
         {
-          list.map(item=>
-            <li key={item.filmId} onClick={()=>{
-              handelClick(item.filmId)
-            }}>
-              {/* <NavLink to={'/film/'+item.filmId}>{item.name}</NavLink> */}
-              {item.name}
-            </li>
-            )
+          list.map(item =>
+            <FilmItenWithRouter key={item.filmId} {...item} />
+          )
         }
       </ul>
     </div>
   )
 }
+
+
+function FilmItem(props) {
+  let { name, filmId } = props
+  return (
+    <li key={filmId} onClick={() => {
+      props.history.push(`/film/${filmId}`)
+    }}>
+      {name}
+    </li>
+  )
+}
+
+const FilmItenWithRouter = withRouter(FilmItem)

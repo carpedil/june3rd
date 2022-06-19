@@ -36,7 +36,7 @@ export default class IndexRouter extends Component {
                         {/* <Route path='/center' component={Center}></Route> */}
                         {/* 路由拦截写法 */}
                         <Route path='/center' render={()=>{
-                            return isAuth()? <Center/> : <Redirect to="/login"/>
+                            return isAuth()? <Center /> : <Redirect to="/login"/>
                         }}></Route>
 
                         <Route path="/login" component={Login}></Route>
