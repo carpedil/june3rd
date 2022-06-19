@@ -1,5 +1,11 @@
 import { Component } from 'react'
-import { HashRouter, Redirect, Route, Switch } from 'react-router-dom'
+// 路由模式: BrowserRouter & HashRouter
+/**
+ * HashRouter : 不会向后端发起页面请求
+ * BrowserRouter :没有#的路径，好看，真正朝后端发请求要页面，后端没有对应
+的路径处理路径，就会404，不好看。
+ */
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 
 import Center from '../views/center'
 import Cinema from '../views/cinema'
@@ -19,7 +25,7 @@ export default class IndexRouter extends Component {
     render() {
         return (
             <div>
-                <HashRouter>
+                <Router>
                     {this.props.children}
 
                     <Switch>
@@ -41,7 +47,7 @@ export default class IndexRouter extends Component {
                         {/* 只要没有匹配的路径,就显示Not Found */}
                         <Route component={NotFound} />
                     </Switch>
-                </HashRouter>
+                </Router>
             </div>
         )
     }
