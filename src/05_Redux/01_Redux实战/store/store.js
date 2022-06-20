@@ -1,7 +1,7 @@
 // 1 npm i redux
 // 2. 引入redux
 // 3. createStore(Reducer)
-import { createStore } from 'redux'
+import { legacy_createStore as createStore } from 'redux'
 
 const reducer = (prevState={
     show:true
