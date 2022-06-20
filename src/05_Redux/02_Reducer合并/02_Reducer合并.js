@@ -6,7 +6,7 @@ import store from "./store/store"
 
 export default class App extends Component {
     state ={
-        isShow: store.getState().show
+        isShow: store.getState().tabbarReducer.show
     }
 
     componentDidMount() { 
@@ -14,7 +14,7 @@ export default class App extends Component {
         // 4 store.subscribe 订阅
         store.subscribe(() => {
             this.setState({
-                isShow: store.getState().show
+                isShow: store.getState().tabbarReducer.show
             })
         })
      }

@@ -5,6 +5,7 @@ import Detail from "../../views/detail/Detail"
 import Film from "../../views/films/Film"
 import Login from "../../views/login/Login"
 import NotFound from "../../views/NotFound/NotFound"
+import City from "../../views/cty/City"
 
 
 
@@ -23,6 +24,7 @@ export default function IndexRouter(props) {
                     <Route path='/center' render={() => {
                         return isAuth() ? <Center /> : <Redirect to="/login" />
                     }}></Route>
+                    <Route path="/city" component={City}></Route>
 
                     <Route path="/login" component={Login}></Route>
                     {/* 要精确匹配,加上exact即可 */}

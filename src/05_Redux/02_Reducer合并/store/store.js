@@ -1,26 +1,15 @@
 // 1 npm i redux
 // 2. 引入redux
 // 3. createStore(Reducer)
-import { legacy_createStore as createStore } from 'redux'
+import { combineReducers, legacy_createStore as createStore } from 'redux'
+import cityReducer from './reducers/cityReducer'
+import tabbarReducer from './reducers/tabbarReducer'
 
-const reducer = (prevState={
-    show:true
-},action={}) =>{
-    console.log(action.type,action.value)
-    let newState = {...prevState}
-    let value = action.value
-
-    switch(action.type){
-        case "show-tabbar":
-            newState.show = value
-            return newState
-        case "hidde-tabbar":
-            newState.show = value
-            return newState
-        default:
-            return prevState
-    }
-}
+// 通过combineReducers可以将多个reducer进行合并, 
+// 不同reducer维护者只需关系自己的业务,而不影响其他人
+const reducer = combineReducers({
+    tabbarReducer,cityReducer
+})
 
 const store = createStore(reducer)
 
