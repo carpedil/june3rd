@@ -5,7 +5,7 @@ import { legacy_createStore as createStore } from 'redux'
 
 const reducer = (prevState={
     show:true
-},action) =>{
+},action={}) =>{
     console.log(action.type,action.value)
     let newState = {...prevState}
     let value = action.value
