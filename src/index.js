@@ -78,6 +78,6 @@ import ReactDOM from 'react-dom';
 // import App from './04_router/08_withRoute';
 // import App from './04_router/09_反向代理';
 // import App from './04_router/10_CSS Module';
-import App from './05_Redux/01_Redux实战/01_Redux实战1';
+import App from './05_Redux/02_Reducer合并/02_Reducer合并';
 
 ReactDOM.render(<App/>,document.getElementById('root'))

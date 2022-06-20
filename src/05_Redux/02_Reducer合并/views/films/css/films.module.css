@@ -1,0 +1,23 @@
+.active {
+    color: rgb(247, 43, 33);
+}
+
+.navbar {
+    position: fixed;
+    top: 180;
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    flex: 1
+}
