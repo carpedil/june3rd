@@ -78,6 +78,7 @@ import ReactDOM from 'react-dom';
 // import App from './04_router/08_withRoute';
 // import App from './04_router/09_反向代理';
 // import App from './04_router/10_CSS Module';
-import App from './05_Redux/02_Reducer合并/02_Reducer合并';
+// import App from './05_Redux/02_Reducer合并/02_Reducer合并';
+import App from './05_Redux/03_Redux-Chunk/03_Redux-chunk';
 
 ReactDOM.render(<App/>,document.getElementById('root'))
