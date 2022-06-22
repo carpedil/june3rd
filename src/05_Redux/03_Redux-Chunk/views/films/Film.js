@@ -1,6 +1,6 @@
 import { NavLink, Redirect, Route, Switch } from "react-router-dom"
-import ComingSoon from "../../views/comingsoon/ComingSoon"
-import NowPlaying from "../../views/nowplaying/NowPlaying"
+import ComingSoon from "../comingsoon/ComingSoon"
+import NowPlaying from "../nowplaying/NowPlaying"
 import style from "./css/films.module.css"
 
 export default function Film() {
