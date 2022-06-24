@@ -8,15 +8,21 @@ export default function Cinema(props) {
     useEffect(() => {
         if(store.getState().cinemaReducer.list.length ===0){
             // 向后台取数据
+            console.log('get data from axios')
             store.dispatch(getCinemaList())
         }else{
             // 使用缓存
+            console.log('get data from store')
             setList(store.getState().cinemaReducer.list)
         }
      
-        store.subscribe(()=>{
+       const  unsubscribe =  store.subscribe(()=>{
             setList(store.getState().cinemaReducer.list)
         })
+        // 在组件销毁时取消订阅
+        return ()=>{
+            unsubscribe()
+        }
     }, [])    
     return <div> 
         <div onClick={()=>{
