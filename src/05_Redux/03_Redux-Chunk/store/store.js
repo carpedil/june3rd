@@ -4,6 +4,7 @@
 import { applyMiddleware, combineReducers, legacy_createStore as createStore } from 'redux'
 // 导入redux-thunk中间件
 import reduxThunk from 'redux-thunk'
+import reduxPromise from 'redux-promise'
 import cityReducer from './reducers/cityReducer'
 import tabbarReducer from './reducers/tabbarReducer'
 import cinemaReducer from './reducers/cinemaReducer'
@@ -15,6 +16,6 @@ const reducer = combineReducers({
 })
 
 // 应用中间件
-const store = createStore(reducer,applyMiddleware(reduxThunk))
+const store = createStore(reducer,applyMiddleware(reduxThunk,reduxPromise))
 
 export default store
