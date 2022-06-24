@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom"
 import Center from "../../views/center/Center"
 import Cinema from "../../views/cinemas/Cinema"
+import City from "../../views/cty/City"
 import Detail from "../../views/detail/Detail"
 import Film from "../../views/films/Film"
 import Login from "../../views/login/Login"
 import NotFound from "../../views/NotFound/NotFound"
-import City from "../../views/cty/City"
-
+import Search from "../../views/search/Search"
 
 
 export default function IndexRouter(props) {
@@ -20,7 +20,8 @@ export default function IndexRouter(props) {
                     <Route path='/films' component={Film}></Route>
                     {/* 动态路由 :id 中:号属于占位符*/}
                     <Route path='/film/:id' component={Detail}></Route>
-                    <Route path='/cinemas' component={Cinema}></Route>
+                    <Route path='/cinemas' component={Cinema} exact></Route>
+                    <Route path='/cinemas/search' component={Search} exact></Route>
                     <Route path='/center' render={() => {
                         return isAuth() ? <Center /> : <Redirect to="/login" />
                     }}></Route>
