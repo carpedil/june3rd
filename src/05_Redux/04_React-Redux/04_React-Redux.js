@@ -2,30 +2,23 @@ import { Component } from "react"
 
 import IndexRouter from './components/router/IndexRouter'
 import TabBar from "./components/tabbar/TabBar"
-import store from "./store/store"
+import { connect } from "react-redux"
 
-export default class App extends Component {
-    state ={
-        isShow: store.getState().tabbarReducer.show
-    }
-
-    componentDidMount() { 
-        console.log(store.getState())
-        // 4 store.subscribe 订阅
-        store.subscribe(() => {
-            this.setState({
-                isShow: store.getState().tabbarReducer.show
-            })
-        })
-     }
-     
+class App extends Component {     
     render(){
         return (
             <div>
                 <IndexRouter>
-                    {this.state.isShow && <TabBar />}
+                    {this.props.isShow && <TabBar />}
                 </IndexRouter>
             </div>
         )
     }
 }
+const mapStateToProps =(state)=>{
+    return {
+        isShow:state.tabbarReducer.show,
+    }
+}
+
+export default connect(mapStateToProps)(App)

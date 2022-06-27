@@ -79,6 +79,13 @@ import ReactDOM from 'react-dom';
 // import App from './04_router/09_反向代理';
 // import App from './04_router/10_CSS Module';
 // import App from './05_Redux/02_Reducer合并/02_Reducer合并';
-import App from './05_Redux/03_Redux-Chunk/03_Redux-chunk';
+// import App from './05_Redux/03_Redux-Chunk/03_Redux-chunk';
+import App from './05_Redux/04_React-Redux/04_React-Redux';
+import { Provider } from 'react-redux'
+import store from './05_Redux/04_React-Redux/store/store'
 
-ReactDOM.render(<App/>,document.getElementById('root'))
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>
+    , document.getElementById('root'))

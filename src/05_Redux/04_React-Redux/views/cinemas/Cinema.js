@@ -1,29 +1,16 @@
-import { useEffect, useState } from "react"
+import { useEffect } from "react"
+import { connect } from "react-redux"
 import getCinemaList from "../../store/actionCreator/cinemaListActionCreator"
-import store from "../../store/store"
 
-export default function Cinema(props) {
-    const [cityName] = useState(store.getState().cityReducer.cityName)
-    const [list, setList] = useState(store.getState().cinemaReducer.list)
+function Cinema(props) {
+    let {getCinemaList,list,cityName} = props
     useEffect(() => {
-        if (store.getState().cinemaReducer.list.length === 0) {
+        if (list.length === 0) {
             // 向后台取数据
             console.log('get data from axios')
-            store.dispatch(getCinemaList())
-        } else {
-            // 使用缓存
-            console.log('get data from store')
-            setList(store.getState().cinemaReducer.list)
-        }
-
-        const unsubscribe = store.subscribe(() => {
-            setList(store.getState().cinemaReducer.list)
-        })
-        // 在组件销毁时取消订阅
-        return () => {
-            unsubscribe()
-        }
-    }, [])
+            getCinemaList()
+        } 
+    }, [list,getCinemaList])
     return <div>
         <div style={{overflow:'hidden'}}>
             <div onClick={() => {
@@ -49,3 +36,15 @@ export default function Cinema(props) {
         </div>
     </div>
 }
+
+const mapStateToProps =(state)=>{
+    return{
+        list:state.cinemaReducer.list,
+        cityName:state.cityReducer.cityName
+    }
+}
+
+const mapDispatchToProps = {
+    getCinemaList,
+}
+export default connect(mapStateToProps,mapDispatchToProps)(Cinema)
