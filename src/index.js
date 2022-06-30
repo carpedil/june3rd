@@ -80,12 +80,15 @@ import ReactDOM from 'react-dom';
 // import App from './04_router/10_CSS Module';
 // import App from './05_Redux/02_Reducer合并/02_Reducer合并';
 // import App from './05_Redux/03_Redux-Chunk/03_Redux-chunk';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
 import App from './05_Redux/04_React-Redux/04_React-Redux';
-import { Provider } from 'react-redux'
-import store from './05_Redux/04_React-Redux/store/store'
+import { persistor, store } from './05_Redux/04_React-Redux/store/store';
 
 ReactDOM.render(
     <Provider store={store}>
-        <App />
+        <PersistGate loading={null} persistor={persistor}>
+            <App />
+        </PersistGate>
     </Provider>
     , document.getElementById('root'))
